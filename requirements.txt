@@ -1,0 +1,7 @@
+langchain==0.1.8
+langchain-community==0.0.21
+langchain-core==0.1.25
+langchain-google-genai==0.0.9
+natsort==8.4.0
+pandas==2.2.0
+streamlit==1.31.1
