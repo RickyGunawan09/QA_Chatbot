@@ -10,7 +10,7 @@ from langchain.globals import set_debug
 set_debug(True)
 
 llm = ChatGoogleGenerativeAI(model="gemini-pro",
-                             google_api_key="AIzaSyAuXdtAUuDqmKR5eXn6e5zFA6Sz9C0knxg", 
+                             google_api_key="..." # api key insert here, 
                              temperature=0.5, 
                              convert_system_message_to_human=True,
                              max_output_tokens=4096,
