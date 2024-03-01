@@ -1,7 +1,10 @@
 langchain==0.1.8
-langchain-community==0.0.21
-langchain-core==0.1.25
+langchain-community==0.0.24
+langchain-core==0.1.28
 langchain-google-genai==0.0.9
 natsort==8.4.0
 pandas==2.2.0
+python-dotenv==1.0.1
 streamlit==1.31.1
+sentence-transformers
+chromadb

@@ -17,5 +17,6 @@ if prompt := st.chat_input("What is up?"):
 
     with st.chat_message("assistant"):
         result = fc.function_call(prompt)
-        response = st.write(result)
-        st.session_state.messages.append({"role": "assistant", "content": response})
+        # response = st.write(result)
+        st.session_state.messages.append({"role": "assistant", "content": result})
+        st.markdown(result)
